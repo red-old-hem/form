@@ -19,5 +19,6 @@ env "prod" {
   dev = "sqlite://dev?mode=memory"
   schema {
     src = data.external_schema.drizzle.url
+    
   }
 }
